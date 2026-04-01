@@ -145,3 +145,7 @@ Thumbs.db
 # Editor files
 .vscode/
 .idea/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
