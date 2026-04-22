@@ -17,7 +17,7 @@ def count_oas1_numbers(folder_path):
 
 
 if __name__ == "__main__":
-    folder = "/path/to/your/folder"  # <-- change this
+    folder = input("Enter folder path: ").strip()
     unique_count, counts = count_oas1_numbers(folder)
 
     print(f"Unique 4-digit numbers count: {unique_count}\n")
